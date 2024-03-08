@@ -1,0 +1,26 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="{% static 'css/style_auth_kafedra.css' %}">
+<title>SUAI</title>
+
+</head>
+<body>
+
+    <div class="container" >
+        <img src="{% static "image/guap.svg" %}" alt="None">
+        <h1 class="label">Аутентификация</h1>
+        <form class="login-form" method="post">
+            <h2>Добро пожаловать!</h2>
+            {{ form.as_p }}
+            {% csrf_token %}
+            <button class="login-btn" >Войти</button>
+            <input type="hidden" name="next" value="{{ next }}"/>
+        </form>
+    </div>
+</body>
+</html>

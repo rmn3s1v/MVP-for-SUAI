@@ -1,0 +1,166 @@
+.container {
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    min-height: 900px;
+    margin: 0 auto;
+    margin-top: 33px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contetn {
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    width: calc(100% - 40px);
+    margin: 0 auto;
+    margin-top: 40px;
+    height:auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex; /* Добавляем flex-контейнер */
+    flex-direction: column; /* Выравниваем дочерние элементы в столбец */
+    justify-content: center;
+
+}
+
+.text_users {
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: RGB(0, 83, 157);
+    font-size: 24px;
+}
+
+.logout-btn{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    float: right;
+    background-color: #007bff;
+    border: none;
+    width: 100px;
+    height: auto;
+    margin: 0 auto;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.logout-btn:hover {
+    background-color: #0056b3;
+}
+
+.text-blk {
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: inline-block; /* Сделаем кнопку блочным элементом */
+    margin: 0 auto;
+    width: auto; /* Установим ширину кнопки */
+    min-width: 200px;
+    height: auto; /* Установим высоту кнопки */
+    line-height: 40px; /* Выравнивание текста по вертикали посередине кнопки */
+    text-align: center; /* Выравнивание текста по горизонтали посередине кнопки */
+    background-color: #007bff; /* Цвет фона кнопки */
+    color: #fff; /* Цвет текста */
+    text-decoration: none; /* Уберем подчеркивание у ссылки */
+    font-size: 16px; /* Размер текста */
+    border-radius: 30px; /* Закругление углов кнопки */
+}
+
+.text-blk:hover {
+  background-color: #0056b3;
+}
+
+.contetn_resume {
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    width: calc(100% - 40px);
+    margin: 0 auto;
+    margin-top: 40px;
+    height:auto;
+    min-height: 200px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.text_resume {
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: RGB(0, 83, 157);
+    font-size: 24px;
+    text-align: center;
+}
+
+.text_resume_table {
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: RGB(0, 83, 157);
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.table_resume {
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    width: calc(100% - 60px);
+    margin: 0 auto;
+    margin-top: 40px;
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex; /* Добавляем flex-контейнер */
+    flex-direction: column; /* Выравниваем дочерние элементы в столбец */
+    justify-content: center;
+}
+
+.info {
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+
+    font-size: 18px;
+    line-height: 150%;
+
+
+}
+
+.info-section {
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 500px; /* Занимает всю доступную ширину */
+    border: 1px solid #000; /* Рамка вокруг блока */
+    padding: 10px; /* Отступ вокруг текста внутри блока */
+    box-sizing: border-box; /* Учитывает отступы и рамку в общую ширину блока */
+    margin: 0 auto; /* Автоматическое выравнивание по центру */
+    margin-bottom: 10px; /* Отступ между блоками */
+    text-align: justify;
+}
+
+.date_info {
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.text-blk_offer {
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: inline-block; /* Сделаем кнопку блочным элементом */
+    margin: 0 auto;
+    margin-top: 30px;
+    width: auto; /* Установим ширину кнопки */
+    min-width: 200px;
+    height: auto; /* Установим высоту кнопки */
+    line-height: 40px; /* Выравнивание текста по вертикали посередине кнопки */
+    text-align: center; /* Выравнивание текста по горизонтали посередине кнопки */
+    background-color: #007bff; /* Цвет фона кнопки */
+    color: #fff; /* Цвет текста */
+    text-decoration: none; /* Уберем подчеркивание у ссылки */
+    font-size: 16px; /* Размер текста */
+    border-radius: 30px; /* Закругление углов кнопки */
+}
+
+.text-blk_offer:hover {
+    background-color: #0056b3;
+  }

@@ -1,0 +1,37 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="{% static 'css/style_index.css' %}">
+<title>SUAI</title>
+
+</head>
+<body>
+    <div class="container" >
+        <img src="{% static "image/guap.svg" %}" alt="None">
+        <h1 class="label">Производственная практика.</h1>
+        <h2 class="label">Здесь Вы можете найти практику на лето за пару кликов</h2>
+
+        <form class="login-form">
+            <h2>Для студентов</h2>
+            <a href="{% url "student_page:auth" %}" class="login-btn">Войти</a>
+        </form>
+
+        <form class="login-form">
+            <h2>Для Кафедры</h2>
+            <a href="{% url "kafedra_page:auth_kafedra" %}" class="login-btn">Войти</a>
+        </form>
+
+        <form class="login-form">
+            <h2>Для партнеров</h2>
+            <a href="{% url "partners_page:auth" %}" class="login-btn">Войти</a>
+            <a href="{% url "main_page:index" %}" class="login-btn">Регистрация</a>
+        </form>
+
+    </div>
+
+</body>
+</html>
